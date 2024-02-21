@@ -1,0 +1,29 @@
+{
+  "name": "@zelenyjan/stencil-green-react",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Jan Zeleny <zelenja8@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/types/index.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "scripts": {
+    "build": "npm run tsc",
+    "tsc": "tsc -p . --outDir ./dist"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@zelenyjan/stencil-green-core": "*"
+  }
+}
